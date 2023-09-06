@@ -1,0 +1,138 @@
+US_Regional_Sales_Data.xlsx
+Request more info
+clean data
+COLUMN NAME
+TYPE
+DESCRIPTION
+sales_orders_sheet
+ordernumber
+string
+Uniquely identifies each order (PK of this table)
+sales_channel
+string
+Channel used for sales
+warehousecode
+string
+Warehouse code
+procureddate
+date
+Procurement date of the order
+orderdate
+date
+Ordered date
+shipdate
+date
+Shipping date of the order
+deliverydate
+date
+Delivery date of the order
+currencycode
+string
+Currency type
+salesteamid
+integer
+Sales Team ID ( FK for Sales Team table)
+customerid
+integer
+Customer ID (FK for Customers table)
+storeid
+integer
+Store ID (FK for Store Locations Table)
+productid
+integer
+Product ID (FK for Products table)
+order_quantity
+integer
+Quantity of the order
+discount_applied
+decimal
+Percentage of discount applied
+unit_price
+decimal
+Unit price of the order
+unit_cost
+decimal
+Unit cost of the order
+customers_sheet
+customerid
+integer
+Uniquely identifies each customer (PK of this table)
+customer_names
+string
+Name of the customer
+store_locations_sheet
+storeid
+integer
+Uniquely identifies each store (PK of this table
+city_name
+string
+City of the store location
+county
+string
+County of the store location
+statecode
+string
+State Code of the store location
+state
+string
+State of the store location
+type
+string
+Type of region to which the store belongs
+latitude
+decimal
+Latitude of the individual store
+longitude
+decimal
+Longitude of the individual store
+location
+geopoint
+Co-ordinates of the store
+areacode
+integer
+Area code of the store
+population
+integer
+Location Population
+household_income
+integer
+Household income (in USD) of the location
+median_income
+integer
+Median income (in USD) of the location
+land_area
+integer
+Land area of the location
+water_area
+integer
+Water area of the location
+time_zone
+string
+Time zone of the location
+products_sheet
+productid
+integer
+Uniquely identifies each product (PK of this table)
+product_name
+string
+Name of the product
+regions_sheet
+statecode
+string
+State Code that uniquely identifies each state (PK of this table)
+state
+string
+US State Name
+region
+string
+US Region of individual state
+sales_team_sheet
+salesteamid
+integer
+Uniquely identifies each state (PK of this table)
+sales_team
+string
+Salesperson assigned
+region
+string
+Operating region of the salesperson
